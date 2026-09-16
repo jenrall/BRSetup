@@ -1,0 +1,13 @@
+name: BRSetup
+version: 1.0.0
+main: com.example.brsetup.BRSetup
+api-version: '1.21'
+author: You
+description: Battle Royale Setup GUI
+depend: [BRCore]
+
+commands:
+  brsetup:
+    description: Open the setup GUI
+    usage: /brsetup
+    aliases: [bs]
